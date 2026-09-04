@@ -1,9 +1,14 @@
 # EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD
 
+## NAME: HARISH S
+## REGNO: 212224240052
+
 ## Aim: 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
+
 ## Components required: 
 STM32 CUBE IDE, Proteus 8 simulator .
+
 ## Theory:
 
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
@@ -177,7 +182,10 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
 
+ 
+
 ## STM 32 CUBE PROGRAM :
+
 ```
 /* USER CODE BEGIN Header */
 /**
@@ -943,17 +951,22 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 
 #endif /* USE_FULL_ASSERT */
+
 ```
 
 
-
 ## Output screen shots of proteus  :
- <img width="1917" height="1198" alt="Screenshot 2026-08-06 093956" src="https://github.com/user-attachments/assets/689879f9-cce3-4ecb-8d34-89f0edbb6499" />
+
+ ## ON:
+ <img width="1902" height="1188" alt="Screenshot 2026-08-08 112719" src="https://github.com/user-attachments/assets/9f9d736a-d3df-462b-a2b8-56d2c9d7a4dc" />
+
+ ## OFF:
+ <img width="1907" height="1186" alt="Screenshot 2026-08-08 112640" src="https://github.com/user-attachments/assets/64b66c49-cfb0-493b-a9ef-d797695dd9cf" />
+
+
 
  
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- <img width="1042" height="1026" alt="Screenshot 2026-08-06 094207" src="https://github.com/user-attachments/assets/a0f3d8e1-d703-42a2-b36c-ef5c38f625d5" />
-
+ 
  
 ## Result :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
